@@ -1,0 +1,23 @@
+[bootstrap]
+main_collection = /example/main.collectionc
+
+[script]
+shared_state = 1
+
+[display]
+width = 960
+height = 640
+high_dpi = 1
+
+[android]
+input_method = HiddenInputField
+
+[project]
+title = lua51_demo
+
+[library]
+include_dirs = lua51
+
+[input]
+game_binding = /builtins/input/all.input_bindingc
+

@@ -1,0 +1,9 @@
+function init(self)
+    local text = _VERSION
+    if jit then
+        text = text .. " (LuaJIT)"
+    else
+        text = text .. " (Vanilla)"
+    end
+    label.set_text("#label", text)
+end

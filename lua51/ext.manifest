@@ -1,0 +1,15 @@
+name: "lua51"
+
+platforms:
+  osx:
+    context:
+      excludeLibs: [luajit-5.1]
+      libs: [lua]
+  linux:
+    context:
+      excludeLibs: [luajit-5.1]
+      libs: [lua]
+  win32:
+    context:
+      excludeLibs: [libluajit-5.1]
+      libs: [liblua]
